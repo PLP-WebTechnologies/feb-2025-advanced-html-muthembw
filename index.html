@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelby Limited Staff</title>
+</head>
+<body>
+    <h1>Welcome to Shelby Limited.</h1>
+    <p>Our Company is made of different employees from different locations</p><br>
+    
+     <!--Company Managers-->
+     <h2>Our Company Managers include:</h2>
+     <ol type="i">
+        <li>Operations Manager</li>
+        <li>Financial Manager</li>
+        <li>Chief of Staff</li>
+        <li>Technical Manager</li>
+        <li>Logistics Manager</li>
+     </ol>
+<!--Table for the managers-->
+<table border="4">
+    <caption><strong>MANAGERS DETAILS</strong> </caption>
+    <thead>
+        <tr>
+        <th>Name</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+        <th>Address</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Thomas Shelby</td>
+            <td>0345673990</td>
+            <td>tommy@gmail.com</td>
+            <td>Small Heath, London</td>
+        </tr>
+         <tr>
+            <td>Eliud Kipchonge</td>
+            <td>0745656490</td>
+            <td>kipliud@gmail.com</td>
+            <td>Eldoret, Kenya</td>
+        </tr>
+         <tr>
+            <td>Bridget Hussein</td>
+            <td>0790483893</td>
+            <td>hassany@gmail.com</td>
+            <td>Mombasa, Kenya</td>
+        </tr>
+         <tr>
+            <td>Amina Mohammed</td>
+            <td>255473930203</td>
+            <td>mohazz@gmail.com</td>
+            <td>Arusha, Tanzania</td>
+        </tr>
+         <tr>
+            <td>Dark Dindy</td>
+            <td>2337402021</td>
+            <td>ddindyz@gmail.com</td>
+            <td>Lagos Nigeria</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+        <th>Name</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+        <th>Address</th>
+        </tr>
+        </tfoot>
+    
+</table>
+
+<!--See Our different office Locations-->
+<h2>Our Offices</h2>
+<h4>We have offices in various cities.</h4>
+<marquee behavior="scroll" direction="left" scrollamount="15">
+<img src="pexels-divinetechygirl-1181406.jpg" alt="The London Ofice" width="350" height="350">
+<img src="pexels-pixabay-416320.jpg" alt="The Nairobi Ofice" width="350" height="350">
+<img src="pexels-karlsolano-2883049.jpg" alt="The Lagos Office" width="350" height="350">
+<img src="pexels-divinetechygirl-1181395.jpg" alt="The South African Office" width="350" height="350">
+</marquee>
+
+<!--Employees Registration Form-->
+<form action=" " method=" post"><strong>Employees Information</strong>
+    <br><br>
+    <label for="name"><strong>Name:</strong></label>
+    <input type="text" id="employee_name" name="employee_name" placeholder="Enter your name" required>
+    <br><br>
+    <label for="email"><strong>Email:</strong></label>
+    <input type="email" id="employee_email" name="employee_email" placeholder="janedoe@example.com" required>
+    <br><br>
+    <label for="password"><strong>Password:</strong></label>
+    <input type="password" name="password" minlength="6" required>
+    <br><br>
+
+    <!--Gender Info-->
+    <label for="gender"><strong>What is your gender:</strong></label>
+    <input type="radio" id="gender" value="female">Female
+    <input type="radio" id="gender" value="male">Male
+    <br><br>
+
+    <!--Location Info-->
+    <label for="location"><strong>Which office are you working from?</strong></label><br><br>
+    <input type="checkbox" id="location" value="london">London
+    <input type="checkbox" id="location" value="kenya">Kenya
+    <input type="checkbox" id="location" value="south africa">South Africa
+    <input type="checkbox" id="location" value="nigeria">Nigeria
+    <input type="checkbox" id="location" value="remote">Remote
+    <input type="checkbox" id="location" value="hybrid">Hybrid
+    <br><br>
+
+    <!--Department Info-->
+    <label for="department"><strong>Select your Department:</strong></label><br><br>
+    <select name="department" id="department">
+        <option value="">Human Resource</option>
+        <option value="ict">ICT</option>
+        <option value="transport">Transport and Logistics</option>
+        <option value="business">Business Sector</option>
+        <option value="finance">Finance</option>
+        <option value="health">Health Care</option>
+        <option value="admin">Administration</option>
+    </select>
+    <br><br>
+
+    <!--Additional Info-->
+    <textarea name="comments" id="comments" height="100" width="100" rows="10" cols="50" placeholder="Send us feedback!!"></textarea><br><br>
+    <button>Submit</button>
+    <button type="button">Cancel</button>
+
+</form><br>
+    <h3><strong>Thankyou For your time!!! Good Day!</strong>
+    </h3>    
+</body>
+</html>
